@@ -1,0 +1,141 @@
+@keyframes appear{
+    0%{
+      opacity: 0;
+      transform: translateX(-100px);
+    }
+    100%{
+      opacity: 1;
+      transform: translateX(0px);
+    }
+  }
+
+
+
+#eduskills{
+    height: 911px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:80px;
+    padding-left: 120px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* animation: appear linear forwards;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%; */
+    
+}
+.edufoot{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: space-between;
+}
+.circle{
+    height: 16px;
+    width: 16px;
+    border-radius: 1000px;
+    background: #F1F1F1;
+    margin-top: 2px;
+}
+.line{
+    height: 225px;
+    width: 3px;
+    background: #F1F1F1;
+    position: absolute;
+    margin-left: 6px;
+    margin-top: 10px;
+}
+.educontainer{
+    display: flex;
+    flex-direction: row;
+    gap:25px;
+    
+    
+}
+.eduContaninerItems{
+    display: flex;
+    flex-direction: column;
+    gap:7px;
+}
+.eduskillsLeft{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 480px;
+    position: relative;
+}
+.eduskillsRight{
+    display: flex ;
+    flex-direction: column;
+    width: 51%;
+    gap:40px;
+}
+.Describe{
+    width: 89%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+}
+.PercentList{
+    display: flex;
+    flex-direction: column;
+    height:233px ;
+    gap:20px;
+}
+.InerBox{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.containerbg{
+    display: flex;
+    width: 551px;
+    height: 8px;
+    overflow: hidden;
+    background: #F5F3FE;
+    border-radius: 10px;
+}
+.containerIn{
+    background:#7E74F1;
+    border-radius: 10px;
+}
+.Yearedu{
+    margin-top: 18px;
+    font-weight: 500;
+    font-size: 14px;
+}
+.skillName{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+@media screen and (max-width:768px) {
+    #eduskills{
+        height: fit-content;
+    }
+    .edufoot{
+        width: 100%;
+        flex-direction: column;
+    }
+    .eduskillsRight{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:456px) {
+    #eduskills{
+        height: fit-content;
+        padding-left: 50px;
+    }
+    .edufoot{
+        width: 100%;
+        flex-direction: column;
+    }
+    .eduskillsRight{
+        width: 90%;
+    }
+    .containerbg{
+        width: 90%;
+    }
+}

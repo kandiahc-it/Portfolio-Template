@@ -1,0 +1,126 @@
+.experience{
+    height: 610px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+/* .NamesBox{
+    background: inherit;
+    width: 280px;
+    height: 52px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+
+}
+.NamesBox:visited{
+    color:#747Ef1;
+} */
+@keyframes slideIn {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+ .sideBarInExp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    
+    /* margin-left: 120px; */
+    
+ }
+
+.sideBarExpanded{
+    width:54%;height: 352px;
+    
+    
+}
+/* .anime-box{
+    position: relative;
+    opacity: 0; 
+  transform: translateY(20px); 
+  transition: opacity 0.5s ease, transform 0.5s ease; 
+}
+.text-up{
+    animation: slideIn 1s forwards;
+} */
+
+
+
+
+.Namesboxcontainer{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    
+}
+.itemsFiels{
+    font-size: 18px; font-weight:500;margin-top: 10px;
+}
+
+.Address{
+    font-size: 14px;
+    font-weight: 400;
+    color:#656D72;
+    margin-top: 20px;
+}
+.TmeStyle{
+    font-weight: 500;
+    font-size: 14px;
+    color: #656D72;
+    margin-top: 20px;
+}
+/* Nov 2020 - Present · Full-time */
+.TechboxStyle{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    margin-top: 20px;
+}
+.workcontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap:20px;
+    width:fit-content;
+    padding-top: 20px;
+    
+}
+@media  screen and (max-width:768px) {
+    .sideBarInExp{
+        width: 100%;
+    }
+    .Namesboxcontainer{
+        width: 70%;
+        flex-direction: row;
+        
+    }
+    .sideBarExpanded{
+        width: 70%;
+    }
+}
+@media  screen and (max-width:456px) {
+    .sideBarInExp{
+        width: 100%;
+        
+    }
+    .Namesboxcontainer{
+        width: 70%;
+        flex-direction: row;
+        overflow-x: auto;
+        
+    }
+    .sideBarExpanded{
+        width: 70%;
+    }
+}

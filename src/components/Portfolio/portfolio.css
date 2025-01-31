@@ -1,0 +1,128 @@
+@keyframes appear{
+    0%{
+      opacity: 0;
+      transform: translateY(-100px);
+    }
+    100%{
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  }
+#portfolio{
+    width: 100%;
+    
+    height: 904px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* align-items: center; */
+    /* animation: appear linear forwards;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%; */
+    justify-content: center;
+    gap:100px
+}
+.arrow-box{
+    display: flex;
+    flex-direction: row;
+    width: 96px;
+    justify-content: space-between;
+
+}
+.portfolio-up{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 83%;
+    align-items: center;
+    margin-left: 116px;
+
+}
+
+.wrappingcontiner{
+    width: 1195px;
+    margin-left: 116px;
+    overflow: hidden;
+    
+}
+.wrappingcontiner ::-webkit-scrollbar{
+    display: none;
+}
+
+
+.imageBox{
+    width: 361px;
+    /* max-width: 100%; */
+    height:295px;
+    overflow:hidden;
+    border-radius: 8px;
+    display: flex;
+    object-fit: cover;
+    margin-top: -35px;
+    /* align-items: center;
+    justify-content: center; */
+}
+
+.imageBox img{
+    opacity: 50%;
+    width: 100%;
+    /* height: 370px; */
+    transition: transform 0.3s ease-in-out;
+}
+
+.imageBox  img:hover{
+    transform: scale(1.5);
+}
+
+.techBox{
+    height: 23px;
+    width:79px;
+    border-radius: 4px;
+    border: 1px solid #F1F1F1;
+}
+
+.techLinkBox{
+    display: flex;
+    flex-direction: row;
+    width: 140px;
+    gap:18px;
+    align-self: flex-start;
+    margin-left: 24px;
+    margin-top: 14px;
+
+}
+
+.NameofStack{
+    font-size: 16px;
+    font-weight: 500;
+    align-self: flex-start;
+    margin-left: 24px;
+    margin-top: 12px;
+}
+
+@media  screen and (max-width:768px) {
+    #portfolio{
+        width: 100%;
+        height: fit-content;
+        align-items: center;
+    }
+    .wrappingcontiner{
+        width: 361px;
+    }
+}
+
+@media  screen and (max-width:456px) {
+    #portfolio{
+        width: 100%;
+        height: fit-content;
+        align-items: center;
+    }
+    .portfolio-up{
+        margin-left: 0;
+    }
+    .wrappingcontiner{
+        width: 361px;
+        margin-left: 0;
+    }
+}

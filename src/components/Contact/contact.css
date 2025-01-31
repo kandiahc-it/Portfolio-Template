@@ -1,0 +1,101 @@
+#contact{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.contactLeft{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 23%;
+    height: 268px;
+    margin-top: -100px;
+}
+
+.formBox{
+    
+    height: 422px;
+    
+    width:42%;
+}
+.Form{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    gap:10px;
+    overflow: hidden;
+
+}
+.NameBox, .EmailBox{
+    height: 42px;
+    width: 99%;
+    color: #747fe1;
+    font-weight:400;
+    font-size: 14px;
+    border-radius: 10px;
+    background: inherit;
+}
+.MessageBox{
+    width: 99%;
+    border-radius: 10px;
+    height: 189px;
+    color: #747fe1;
+    font-weight:400;
+    font-size: 14px;
+    background: inherit;
+}
+.SubmitBtn{
+    background: #747fe1;
+    width: 100%;
+    height: 42px;
+    border: none;
+    margin-top: 5px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+}
+::placeholder{
+    font-weight: 500;
+    font-size: 16px;
+}
+.iconBox{
+    width: 56px;
+    height: 56px;
+    background: #F5F3FE;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contactBox{
+    width:334px;
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    gap:10px;
+}
+@media screen and (max-width:456px) {
+    #contact{
+        height: fit-content;
+        flex-direction: column;
+        gap: 50px;
+        justify-content: center;
+    }
+    .formBox{
+        width: 90%;
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
+    .Form{
+        width: 90%;
+    }
+}

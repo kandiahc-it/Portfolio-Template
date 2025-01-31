@@ -4,7 +4,22 @@ body {
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
+  
   -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+
+  overflow: auto;
+}
+*::-webkit-scrollbar{
+  width:10px;
+}
+ *::-webkit-scrollbar-thumb{
+  
+ background-color: #7E74F1;
+ border-radius: 5px;
+}
+*::-webkit-scrollbar-track{
+  background-color:black;
 }
 
 code {

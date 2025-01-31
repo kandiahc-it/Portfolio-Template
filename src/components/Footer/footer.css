@@ -1,0 +1,14 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    height: 241px;
+    align-items: center;
+    gap:20px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.footercopy{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

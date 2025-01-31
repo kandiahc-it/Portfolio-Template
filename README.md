@@ -4,6 +4,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+
+Hey Guys! 👋
+
+This is a template portfolio that is designed to be beginner-friendly, making it easy for anyone to create their own stunning portfolio. You only need to change the details enclosed in dotted lines, while keeping the rest of the structure intact. This portfolio is fully responsive, meaning it works seamlessly on mobile📱, tablet📲, and laptop💻 screens. It’s free 💸 to use and highly customizable to suit your needs. Built by Me 👨‍💻, this template is not only functional but also features a beautiful Navigation 🌟, giving your portfolio a polished and professional look. Whether you're just starting out or looking to refresh your online presence, this template is the perfect starting point! 🚀
+
+<---------------------------------------------------------------------------------------------------------------------------------------------->
 In the project directory, you can run:
 
 ### `npm start`
